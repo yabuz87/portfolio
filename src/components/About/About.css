@@ -1,0 +1,134 @@
+.about
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:80px;
+    margin:100px 170px;
+    
+}
+
+.about-title
+{
+    position:relative;
+}
+.about-title h1
+{
+    font-size:80px;
+    padding:0px 30px;
+    font-weight:600;
+}
+.about-title img
+{
+    position:absolute;
+    z-index:-1;
+    bottom:0;
+    right:0;
+}
+.about-content
+{
+    display:flex;
+    align-items: top;
+    gap:80px;
+}
+.about-right
+{
+    display:flex;
+    flex-direction:column;
+    gap:80px;
+}
+.about-para
+{
+    display:flex;
+    flex-direction:column;
+    line-height: 30px;
+    gap:20px;
+    font-size:24px;
+    font-weight:500;
+
+}
+.skills
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:10px;
+}
+.about-skill
+{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    transition:0.3s;
+}
+.skills p
+{
+    font-size:20px;
+    min-width:200px;
+    font-weight:500;
+    margin-right:5px;
+
+}
+.skills hr {
+    width:0px;
+    outline:none;
+    opacity:0.5;
+    height: 10px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    border-radius: 10px;
+    transition: width 0.3s ease-in-out;
+}
+.acheivments
+{
+    margin-top:80px;
+    margin-bottom:80px;
+    display:flex;
+    /* flex-direction:column; */
+    justify-content:space-between;
+    width:100%;
+}
+.acheivments hr
+{
+    width: 3px;
+    height: 90px;
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+    transition: height 0.3s ease-in-out;  
+}
+.about-acheivment
+{
+
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    transition:0.3s;
+    justify-content: center;
+}
+.about-acheivment h1{
+    font-size:60px;
+    font-weight:700;
+    /* background: linear-gradient(270deg, #FFA500 50.41%, #8A2BE2 90.25%); */
+    background: linear-gradient(270deg, #FF4500 50.41%, #32CD32 90.25%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;  
+}
+.about-skill:hover
+{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+.about-acheivment p
+{
+    text-transform:uppercase;
+    font-size:20px;
+    font-weight:500;
+}
+.about-acheivment:hover
+{
+    transform: scale(1.06);
+    transition:0.3s;
+
+}

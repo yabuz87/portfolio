@@ -1,0 +1,98 @@
+   .navbar {
+        display: flex;
+        height: 90px;
+        padding:10px 40px;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        z-index: 1000;
+    }
+    
+    
+
+
+.nav-menu
+{
+    display:flex;
+    list-style: none;
+    gap:35px;
+    font-size:20px;
+    transition:0.3s;
+    
+    
+}
+ul li
+{
+   transition:0.3s;
+   cursor:pointer;
+}
+.logoname
+{
+    font-family: "Sankofa Display", "sans-serif";
+    
+     font-size:50px;
+     font-weight:600;
+     color: white;
+}
+.logoname {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.logoname::after,ul li:hover::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #B923E1; /* Change to your preferred color */
+    transition: width 0.3s ease-in-out;
+}
+
+.logoname:hover::after,ul li:hover::after {
+    width: 100%;
+    left: 0;
+    background: #B923E1; /* Change to your preferred color */
+}
+
+.logoname-end
+{
+    background: linear-gradient(267deg, #Da7c25 0.36%, #B923E1 100%);
+    -webkit-background-clip: text;
+     background-clip: text; 
+     font-size:60px;
+     font-weight:600;
+     font-family: "Sankofa Display", "sans-serif";
+     color:transparent;
+}
+
+ul li:hover
+{
+    transform:scale(1.07);
+    transition:0.3s;
+}
+.connect-btn
+{
+    background: linear-gradient(267deg,#DF8908 0.36%,#B923E1 100%);
+    padding:13px 40px;
+    color:white;
+    border-radius: 50px;
+   border:none;
+   font-size:22px;
+   cursor:pointer;
+    transition:0.3s;
+}
+.connect-btn:hover{
+    transform:scale(1.05);
+    transition: 0.3s;
+    color:white;
+    background-color:black;
+
+}
