@@ -11,11 +11,10 @@ const Footer = () => {
       <img src={footerLogo}/>
       <p> I am a frontend Developer from, Ethiopia with 1 year of experience </p>
     </div>
-    <div className="footer-top-left">
+    <div className="footer-top-right">
       <div className="footer-email-input">
         <img src={userIcon} alt=""/>
         <input type="email" placeholder="Enter your email"/>
-
       </div>
       <div className="footer-subscribe">Subscribe</div>
     </div>
