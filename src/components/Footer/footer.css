@@ -34,5 +34,17 @@
     outline:none;
     border:none;
     background:transparent;
+    color:#a0a0a0;
+    font-family:Outfit;
+    font-size:18px;
     
+}
+.footer-subscribe
+{
+    font-size:20px;
+    padding:22px 50px;
+    border-radius: 50px;
+    background:linear-gradient(264deg,#DF8908 -5.09%,#8415FF 106.28%);
+    cursor:pointer;
+    transition:0.3s;
 }

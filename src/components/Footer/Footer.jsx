@@ -17,7 +17,7 @@ const Footer = () => {
         <input type="email" placeholder="Enter your email"/>
 
       </div>
-      <div className="footer-sibscribe">Subscribe</div>
+      <div className="footer-subscribe">Subscribe</div>
     </div>
 
       </div>
