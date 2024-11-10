@@ -111,7 +111,9 @@
     margin-top:10px;
     margin-bottom:50px;
     transition:0.3s;
-    cursor:pointer;
-
-    
+    cursor:pointer; 
+}
+.contact-submit:hover
+{
+    transform:scale(1.05);
 }

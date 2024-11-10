@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
-// import "./index.css"
+import Footer from "./components/Footer/Footer"
 import Navbar from "./components/Navbar/Navbar"
 import Hero from "./components/hero/Hero"
 import Services from "./components/Services/services"
@@ -16,6 +16,7 @@ function App() {
     <Services/>
     <Mywork/>
     <Contact/>
+    <Footer/>
     </>
   )
 }
