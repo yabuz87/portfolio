@@ -65,7 +65,7 @@
 .contact-detail{
     display:flex;
     align-items:center;
-    gap:20px;
+    gap:10px;
 }
 .contact-right{
     display:flex;
