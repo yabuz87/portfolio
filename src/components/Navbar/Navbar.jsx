@@ -11,9 +11,9 @@ function Navbar() {
   return (
     <div className="navbar">
       <span className="logoname">Yab <span className="logoname-end">ets</span></span>
-      <img src={menu_open} alt=""/>
+      <img src={menu_open} alt="" className="nav-mob-open" />
       <ul className="nav-menu">
-      <img src={menu_close} alt=""></img>
+      <img src={menu_close} className="nav-mob-close" alt=""></img>
         <li>
           <AnchorLink className='anchor-link' to='home' smooth={true} duration={200}>
             <p onClick={() => setMenu("home")}>Home</p>
@@ -45,7 +45,7 @@ function Navbar() {
           {menu === "contact" ? <img src={underline} alt="" /> : null}
         </li>
       </ul>
-      <div>
+      <div className="nav-connect">
         <AnchorLink className="anchor-link" to='contact' smooth={true} duration={200} offset={-50}><button className="connect-btn">Get in touch</button></AnchorLink>
       </div>
     </div>
