@@ -13,7 +13,7 @@ const Contact = () => {
       <img src={themePattern}></img>
     </div>
 
-  <div className="contact-section">
+  <div  id='contact' className="contact-section">
     <div className="contact-left">
         <h1>Let us talk</h1>
         <p>I am currently available to take new projects, so feel free to contact anytime</p>
