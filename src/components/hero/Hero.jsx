@@ -9,10 +9,7 @@ const Hero = () => {
       <h1><span>Hi, I am Called Yabets, </span>a frontend devloper  with new frontend tools</h1>
       <p>
       this is yabets persuing computer science at AAU a fullstack Devloper with different new and timely tools like  MERN stack,spring boot and next.js
-      this is yabets persuing computer science at AAU a fullstack Devloper with different new and timely tools like  MERN stack,spring boot and next.js
-      this is yabets persuing computer science at AAU a fullstack Devloper with different new and timely tools like  MERN stack,spring boot and next.js
-      this is yabets persuing computer science at AAU a fullstack Devloper with different new and timely tools like  MERN stack,spring boot and next.js
-     
+      this is yabets persuing computer science at AAU a fullstack Devloper with different new and timely tools like  MERN stack,spring boot and next.js 
       </p>
 
       <div>
