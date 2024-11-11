@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link as AnchorLink } from 'react-scroll';
 import underline from "../../assets/nav_underline.svg";
+import menu_open from "../../assets/menu_open.svg";
+import menu_close from "../../assets/menu_close.svg"
 import "./Navbar.css";
 
 function Navbar() {
@@ -9,7 +11,9 @@ function Navbar() {
   return (
     <div className="navbar">
       <span className="logoname">Yab <span className="logoname-end">ets</span></span>
+      <img src={menu_open} alt=""/>
       <ul className="nav-menu">
+      <img src={menu_close} alt=""></img>
         <li>
           <AnchorLink className='anchor-link' to='home' smooth={true} duration={200}>
             <p onClick={() => setMenu("home")}>Home</p>
@@ -23,7 +27,7 @@ function Navbar() {
           {menu === "about" ? <img src={underline} alt="" /> : null}
         </li>
         <li>
-          <AnchorLink className='anchor-link' to='portfolio' smooth={true} duration={500} offset={-50}>
+          <AnchorLink className='anchor-link' to='work' smooth={true} duration={500} offset={-50}>
             <p onClick={() => setMenu("portfolio")}>Portfolio</p>
           </AnchorLink>
           {menu === "portfolio" ? <img src={underline} alt="" /> : null}
