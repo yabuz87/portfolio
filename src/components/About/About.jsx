@@ -5,7 +5,8 @@ import profilePic from "../../assets/profile_img.svg"
 
 const About = () => {
   return (
-    <div className="about">
+    <div id="about">
+    <div  className="about">
     <div className="about-title">
         <h1>About me</h1>
         <img src={themePattern} className="theme-pattern-img" alt="bottom to title;About me"></img>
@@ -47,6 +48,7 @@ const About = () => {
         <p>satisfied clients</p>
     </div>
 
+    </div>
     </div>
     </div>
   )

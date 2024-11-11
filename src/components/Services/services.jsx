@@ -1,12 +1,13 @@
 import React from 'react'
 import "./services.css"
+
 import themepattern from "../../assets/theme_pattern.svg"
 import  serviceObj from "../../assets/services_data";
 import arrowIcon from "../../assets/arrow_icon.svg"
 
 const Services = () => {
   return (
-    <div id="services" className="services">
+    <div id='services' className="services">
     <div className="service-title">
         <h1>Services</h1>
         <img src={themepattern} alt="below the Serivce title"/>
