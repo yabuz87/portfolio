@@ -78,4 +78,19 @@
     transition: 0.2s;
 }
 
+@media(max-width:768px)
+{
+    .hero{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        margin-bottom:120px;
+        width:260px;
+    }
+    .hero h1{
+        margin-top:50px;
+        width:90%;
+        font-size:50px;
+    }
+}
 

@@ -109,6 +109,9 @@ ul li:hover
 {
     display:none;
 }
+.nav-mob-open{
+    display:none;
+}
 @media(max-width:768px)
     {
         .navbar{
@@ -148,8 +151,16 @@ ul li:hover
                 transition:right 0.5s;
                 z-index:2;
 
-
-
+            }
+            .nav-menu li
+            {
+                font-size:30px;
+                padding-left:100px;
+                flex-direction:row;
+                gap:20px;
+                
             }
 
+
     }
+    

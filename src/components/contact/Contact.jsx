@@ -27,6 +27,10 @@ const Contact = () => {
     if (res.success) {
       alert(res.message);
     }
+    else 
+    {
+      alert(res.error.message);
+    }
   };
   return (
     <div className="contact">
