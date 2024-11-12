@@ -81,10 +81,9 @@
 @media(max-width:768px)
 {
     .hero{
-       
-        
         margin-top:120px;
-        width:260px;
+        /* flex-wrap: nowrap; */
+        /* width:260px; */
     }
     .hero h1{
         margin-top:50px;

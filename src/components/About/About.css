@@ -149,6 +149,50 @@
     }
     .about-title img
     {
-        width:60px;
+        width:130px;
+        right:-20px;
+
+    }
+    .about-content{
+    display:flex;
+    flex-direction: column;
+    }
+    .about-left
+    {
+        display:none;
+    }
+    .about-para{
+        font-size:18px;
+        line-height:32px;
+    }
+    .about-skill
+    {
+        gap:20px;
+        align-items:center;
+
+        
+    }
+    .about-skill p{
+        font-size:16px;
+
+    };
+    .about-skill hr 
+    {
+        height:6px;
+    }
+    .about-aheivments
+    {
+        justify-content:space-between;
+    }
+    .about-acheivment{
+        gap:10px;
+    }
+    .about-acheivment h1{
+        font-size:34px;
+        font-weight:700;
+    }
+    .about-acheivment p{
+        text-align:center;
+        font-size:16px;
     }
 }
