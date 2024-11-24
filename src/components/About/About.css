@@ -106,6 +106,13 @@
     transition:0.3s;
     justify-content: center;
 }
+
+.profile-picture
+{
+    border-radius: 20px;
+    width:400px;
+
+}
 .about-acheivment h1{
     font-size:60px;
     font-weight:700;
