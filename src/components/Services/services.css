@@ -81,7 +81,31 @@
     border:2px solid #8A2BE2;
     background-image:linear-gradient(45deg, #3f0028 , #582300);
     transform:scale(1.05);
-    transition:0.3s;
+    transition:0.3s;  
     
+}
+@media(max-width:768px)
+{
+    .services{
+        align-items:start;
+        display:flex;
+        flex-wrap: wrap;
+        gap:70px;
+        margin:20px 70px;
     
+    }
+    .services h1{
+        padding:0;
+        font-size:50px;
+    }
+    .services img{
+        width:130px;
+        margin-right:-20px;
+    }
+    .services-format{
+        gap:20px;
+        padding:32px;
+        
+    }
+    .services
 }

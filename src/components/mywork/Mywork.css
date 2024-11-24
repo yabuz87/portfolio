@@ -70,3 +70,17 @@
     gap:25px;
     transition:0.3s;
 }
+@media(max-width:768px)
+{
+    .mywork{
+        display:flex;
+        width:300px;
+    }
+    .container-title h1{
+        font-size:50px;
+    }
+    .container-title img{
+        width:80px;
+        /* left:-4px; */
+    }
+}
