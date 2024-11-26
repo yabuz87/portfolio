@@ -1,8 +1,10 @@
-import React from 'react'
- import heroImage from "../../assets/dv.JPG"
-import "./Hero.css"
+import React from 'react';
+import { Link as AnchorLink } from 'react-scroll';
+import heroImage from "../../assets/dv.JPG";
+import "./Hero.css";
 
 const Hero = () => {
+  const cv="https://yabuz87.github.io/CV/myCv.pdf";
   return (
     <div id="home" className="hero">
       <img src={heroImage} className="hero-img" alt="Hero section image"/>
@@ -13,8 +15,8 @@ const Hero = () => {
       </p>
 
       <div>
-        <button className="button1">my Cv</button>
-        <button className="button2">contact me</button>
+        <a href={cv}><button className="button1">my Cv</button></a>
+        <AnchorLink className="anchor-link" to='contact' smooth={true} duration={200} offset={-50}><button className="button2">contact me</button></AnchorLink>
       </div>
     </div>
   )
