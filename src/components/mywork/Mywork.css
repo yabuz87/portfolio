@@ -64,6 +64,9 @@
     margin-bottom:20px;
 
 }
+ a{
+    text-decoration: none;
+}
 .mywork-showmore:hover
 {
     padding:3px 30px;

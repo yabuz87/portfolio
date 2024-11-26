@@ -15,7 +15,7 @@ const Hero = () => {
       </p>
 
       <div>
-        <a href={cv}><button className="button1">my Cv</button></a>
+        <a href={cv} target="_blank"><button className="button1">my Cv</button></a>
         <AnchorLink className="anchor-link" to='contact' smooth={true} duration={200} offset={-50}><button className="button2">contact me</button></AnchorLink>
       </div>
     </div>

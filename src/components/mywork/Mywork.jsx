@@ -15,15 +15,21 @@ const Mywork = () => {
      {
       workObj.map((item,index)=>
       {
-     return <img src={item.w_img} key={index}/>
+     return <a href={item.link} target="_blank"> 
+     <img src={item.w_img} key={index}/>
+            </a>
       })
      }
      </div>
+     <a href="https://github.com/yabuz87" target="_blank">
      <div className="mywork-showmore">
+      
       <p>Show more</p>
-      <img src={arrowIcon}/>
-     </div>
 
+      <img src={arrowIcon}/>
+     
+     </div>
+     </a>
     </div>
   )
 }
