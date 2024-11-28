@@ -64,7 +64,7 @@
     margin-bottom:20px;
 
 }
- a{
+  a{
     text-decoration: none;
 }
 .mywork-showmore:hover
@@ -77,7 +77,12 @@
 {
     .mywork{
         display:flex;
-        width:300px;
+        /* width:300px; */
+    }
+    .mywork-container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content:center;
     }
     .container-title h1{
         font-size:50px;

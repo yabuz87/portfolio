@@ -94,6 +94,10 @@
         margin:20px 70px;
     
     }
+    .service-container{
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
+    }
     .services h1{
         padding:0;
         font-size:50px;
@@ -107,5 +111,5 @@
         padding:32px;
         
     }
-    .services
+
 }

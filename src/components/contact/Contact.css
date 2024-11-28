@@ -119,5 +119,12 @@
 }
 @media(max-width:768px)
 {
+    .contact-title h1{
+        font-size:50px;
+    }
+    .contact-title img{
+        width:80px; 
+        /* left:-4px; */
+    }
     
 }

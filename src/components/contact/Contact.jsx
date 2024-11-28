@@ -36,7 +36,7 @@ const Contact = () => {
     <div className="contact">
     <div className="contact-title">
     <h1>Get in touch</h1>
-      <img src={themePattern}></img>
+      <img className="contact-img-title" src={themePattern}></img>
     </div>
 
   <div  id='contact' className="contact-section">

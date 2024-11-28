@@ -125,7 +125,7 @@ ul li:hover
             .nav-mob-open
             {
                 display:block;
-                position:fixed;
+                position:relative;
                 right:30px;
 
             }

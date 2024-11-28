@@ -187,6 +187,10 @@
     {
         height:6px;
     }
+    .acheivments{
+        gap:8px;
+        align-items:center;
+    }
     .about-aheivments
     {
         justify-content:space-between;
