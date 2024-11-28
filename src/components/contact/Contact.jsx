@@ -44,17 +44,20 @@ const Contact = () => {
         <h1>Let us talk</h1>
         <p>I am currently available to take new projects, so feel free to contact anytime</p>
         <div className="contact-details">
-          <div className="conatct-detail">
-        <img src={mail_icon} alt="email"/><p>Jabezsolomonz@gmail.com</p>
+          <div className="contact-detail">
+        <img src={mail_icon} alt="email"/>
+        <p>Jabezsolomonz@gmail.com</p>
           </div>
-          <div className="conatct-detail">
-        <img src={call_icon} alt="Phone"/><p>+251972713987</p>
+          <div className="contact-detail">
+        <img src={call_icon} alt="Phone"/>
+        <p>+251972713987</p>
           </div>
-          <div className="conatct-detail">
+          <div className="contact-detail">
         <img src={location_icon} alt="location"/><p>Addis Ababa, Ethiopia</p>
           </div>
         </div>
     </div>
+    <div>
     <form onSubmit={onSubmit} className="contact-right">
       <label htmlFor="">Your Name</label>
       <input type="text" placeholder="Enter your name" name="name"></input>
@@ -64,6 +67,7 @@ const Contact = () => {
       <textarea name="message" id=""  rows="8" placeholder="Enter your message"></textarea>
       <button className="contact-submit">Submit</button>
     </form>
+    </div>
   </div>
     </div>
   )

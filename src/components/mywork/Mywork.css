@@ -77,11 +77,16 @@
 {
     .mywork{
         display:flex;
+        gap:50px;
+        margin:50px 70px;
+        align-items:center;
+        justify-content:center;
         /* width:300px; */
     }
     .mywork-container{
         display:grid;
         grid-template-columns: 1fr 1fr;
+        margin-left:10px;
         justify-content:center;
     }
     .container-title h1{
@@ -91,4 +96,5 @@
         width:80px;
         /* left:-4px; */
     }
+
 }
