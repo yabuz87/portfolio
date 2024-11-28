@@ -174,13 +174,14 @@
     }
     .about-skill
     {
+        display:flex;
         gap:20px;
         align-items:center;
 
         
     }
     .about-skill p{
-        font-size:16px;
+        font-size:20px;
 
     };
     .about-skill hr 
@@ -206,4 +207,5 @@
         text-align:center;
         font-size:16px;
     }
+    
 }
