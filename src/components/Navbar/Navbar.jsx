@@ -7,13 +7,14 @@ import "./Navbar.css";
 
 function Navbar() {
   const [menu, setMenu] = useState("home");
-  const menuRerf=useRef()
+  const menuRerf=useRef();
 const openMenu=()=>
 {
   menuRerf.current.style.right="0";
 }
 const closeMenu=()=>
 {
+ 
   menuRerf.current.style.right="-350px";
 }
   return (

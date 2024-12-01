@@ -123,10 +123,10 @@
     .service-container{
         grid-template-columns: 1fr 1fr;
         gap:30px;
+        width:100%;
     }
     .service-format{
-        width:100%;
-        height:100%;
+        width:200px;
     }
    
 

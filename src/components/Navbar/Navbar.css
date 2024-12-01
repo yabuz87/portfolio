@@ -36,8 +36,7 @@ ul li p{
 .logoname
 
 {
-    font-family: "Sankofa Display", "sans-serif";
-    
+    font-family: "Sankofa Display", "sans-serif"; 
      font-size:50px;
      font-weight:600;
      color: white;
@@ -118,7 +117,7 @@ ul li:hover
             /* margin:10px 30px; */
             display:flex;
             align-items: center;
-            justify-content: space-;
+            justify-content: space-between;
             gap:50px;
             }
             .nav-connect
@@ -145,7 +144,6 @@ ul li:hover
                 position:fixed;
                 flex-direction:column;
                 align-items:start;
-
                 top:0;
                 right:-350px;
                 gap:30px;
