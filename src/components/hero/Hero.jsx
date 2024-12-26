@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link as AnchorLink } from 'react-scroll';
-import heroImage from "../../assets/dv.JPG";
+ import heroImage from "../../assets/linkedin2.jpg";
 import "./Hero.css";
-
 const Hero = () => {
   const cv="https://yabuz87.github.io/CV/myCv.pdf";
   return (
     <div id="home" className="hero">
-      <img src={heroImage} className="hero-img" alt="Hero section image"/>
+      {/* <div  ><img src={heroImage} className="hero-img " style={{width:"700px",height:"350px",objectFit: "contain"}}  alt="Hero section image"/></div> */}
       <h1><span>Hi, I am Called Yabets, </span>a Frontend devloper  with new frontend tools</h1>
       <p>
       This is yabets persuing computer science at AAU and learning   MERN stack Development,spring boot and next.js.Machine learning, and Computer Networking Learner.

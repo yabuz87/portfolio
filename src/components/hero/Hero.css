@@ -6,11 +6,14 @@
 }
 .hero img{
     margin-top:90px;
-    border-radius: 400px;
-    width:250px;
-    /* width:100%; */
+    border-radius: 100px;
+    width:100%;
     /* padding:50px; */
-
+    
+        width: 100%;
+        height: 100%;
+    
+    
     
 }
 .hero h1{
